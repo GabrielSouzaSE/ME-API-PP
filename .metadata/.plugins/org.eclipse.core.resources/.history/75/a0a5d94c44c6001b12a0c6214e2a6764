@@ -1,0 +1,7 @@
+package com.jgabriel.crud.model;
+
+public class Crud {
+	
+	private Long id;
+	private String nome;
+}

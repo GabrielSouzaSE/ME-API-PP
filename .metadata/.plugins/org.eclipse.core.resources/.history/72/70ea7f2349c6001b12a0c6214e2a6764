@@ -1,0 +1,19 @@
+package com.jgabriel.crud.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jgabriel.crud.model.Crud;
+
+@RestController
+@RequestMapping("/crud")
+public class CrudController {
+	
+	@GetMapping
+	public List<Crud> listar() {
+		
+	}
+}
